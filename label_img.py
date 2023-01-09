@@ -13,17 +13,18 @@ while(1):
     py.keyUp("ctrl")
     py.keyUp("v")
     print("ctrl+v up")
-    print("save down")
-    time.sleep(1)
+    time.sleep(3)
+    print("Saving ...")
     # save
     py.keyDown("ctrl")
     py.keyDown("s")
-    print("save down")
+    print("ctrl+s down")
 
     time.sleep(1)
     py.keyUp("ctrl")
     py.keyUp("s")
-    print("save up")
+    print("ctrl+s up")
+    print("Saved")
 
     time.sleep(1)
     print("Do you want to continue")
